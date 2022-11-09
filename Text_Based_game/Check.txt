@@ -1,0 +1,6 @@
+CREATE TABLE Check(
+	checkID INT PRIMARY KEY
+);
+
+INSERT INT Check VALUES
+(0);

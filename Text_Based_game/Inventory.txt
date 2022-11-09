@@ -1,0 +1,4 @@
+CREATE TABLE Inventory(
+	inventoryID INT PRIMARY KEY,
+	itemID INT NOT NULL
+);

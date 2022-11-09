@@ -1,0 +1,15 @@
+CREATE TABLE Enemies(
+	enemyID INT PRIMARY KEY,
+	nameOFEnemy NVARCHAR(100) NOT NULL,
+	health INT NOT NULL,
+	armor INT NOT NULL,
+	damage INT NOT NULL
+);
+
+INSERT INTO Enemies VALUES			
+(1,'Teenage Nicotine Addict', 5, 0, 3),
+(2,'Tony Hawk', 15, 5, 5),
+(3,'No Life Adult', 20, 3, 7),
+(4,'Skater Kid', 25, 2, 9),
+(5,'Bike Boy', 30, 4, 10),
+(6,'Stupid Penny Board Kid', 50, 0, 12);

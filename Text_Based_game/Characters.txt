@@ -1,0 +1,11 @@
+CREATE TABLE Characters(
+	ID INT PRIMARY KEY,
+	name NVARCHAR(100),
+	helmetID INT,
+	armorID INT,
+	bootsID INT,
+	weaponID INT,
+	encounterID INT NOT NULL,
+	health INT,
+	strength INT
+);
